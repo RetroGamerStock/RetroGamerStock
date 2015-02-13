@@ -1,0 +1,344 @@
+/* CSS Document */
+
+body {
+    background: url("../img/fond.jpg") repeat scroll 0 0 rgba(0, 0, 0, 0);
+    font: 13px "Lucida Sans Unicode",sans-serif,arial,times,veronica,serif;
+}
+
+table {
+	border-spacing : 0;
+	border-collapse : collapse;
+	margin: 0 auto;
+	width:100%;
+}
+
+
+
+#insco a {
+    /*color: #F79B32;*/
+	color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    /*color: #F79B32;*/
+	color: white;
+    text-decoration: underline;
+}
+a {
+    /*color: #F79B32;*/
+	color: blue;
+    text-decoration: none;
+}
+
+a:hover {
+    /*color: #F79B32;*/
+	color: blue;
+    text-decoration: underline;
+}
+img a {
+    border: medium none;
+}
+img {
+    border: medium none;
+}
+#global {
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    box-shadow: 8px 8px 12px #000000;
+    margin: 0 auto;
+    padding: 10px;
+    
+    width: 900px;
+}
+#header {
+    background: url("../img/bandeau.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    height: 220px;
+    width: 900px;
+font: 13px "Lucida Sans Unicode",sans-serif,arial,times,veronica,serif;
+}
+
+#logo {
+	float:left;	
+	margin-top:30px;
+	display:inherit;
+	z-index:1000;
+}
+
+#dewplayer{
+ float:left;
+width:250px; 
+height:20px;
+}
+
+#footer {
+    border: 1px solid #4C4C4C;
+    display: inline-block;
+    font-weight: bold;
+    margin-top: 10px;
+    width: 900px;
+}
+#menu {
+	padding-top:3px;
+    background-color: #4C4C4C;
+    color: #FFFFFF;
+    height: 25px;
+    width: 900px;
+	text-align: center;
+	font: 13px "Lucida Sans Unicode",sans-serif,arial,times,veronica,serif;
+}
+#menu a {
+    color: #FFFFFF;
+	text-align: center;
+    text-decoration: none;
+	font: 13px "Lucida Sans Unicode",sans-serif,arial,times,veronica,serif;
+}
+
+#menu a:hover{
+    color: #FFFFFF;
+	text-align: center;
+    text-decoration: underline;
+	font: 13px "Lucida Sans Unicode",sans-serif,arial,times,veronica,serif;
+}
+
+
+#insco {
+	width:890px;
+	text-align:right;	
+	background-color: #4C4C4C;
+	padding-right:10px;
+	font: 13px "Lucida Sans Unicode",sans-serif,arial,times,veronica,serif;
+}
+
+#news {
+	border: 1px solid #4C4C4C;
+	padding:5px;
+	width:888px;
+	margin-top:5px;
+	margin-bottom:5px;	
+	display:inline-block;
+}
+
+#stat {
+	width:900px;	
+}
+
+.stat_left {
+	width:445px;
+	float:left;	
+    border: 1px solid #4C4C4C;
+}
+
+.stat_right {
+	width:445px;
+	float:right;	
+    border: 1px solid #4C4C4C;	
+}
+
+.titre {
+	background-color: #4C4C4C;	
+	color:#FFF;
+	text-align:left;
+	padding-left:5px;
+}
+
+.corp {
+	padding:5px;	
+	text-align:left;
+}
+
+.pied {
+	text-align:right;
+	font-style:italic;		
+}
+
+.pagination {
+    line-height: 2em;
+    text-align: center;
+}
+.pagination a, .pagination span {
+    padding: 0.2em 0.5em;
+}
+.pagination a {
+    border: 1px solid #9AAFE5;
+    color: #105CB6;
+    text-decoration: none;
+}
+.pagination a:hover {
+    border: 1px solid #296BB5;
+    color: #000031;
+}
+.pagination .prevnext {
+    font-weight: bold;
+}
+.pagination span.disabled {
+    border: 1px solid #DDDDDD;
+    color: #999999;
+}
+.pagination span.current {
+    background-color: #2E6AB1;
+    border: 1px solid #2E6AB1;
+    color: #FFFFFF;
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+.ok {
+    background: none repeat scroll 0 0 #D6EFA1;
+    border: 1px solid #C1D779;
+    border-radius: 5px;
+    color: #4F7307;
+    margin: 5px;
+    padding: 5px;
+}
+.erreur {
+    background: none repeat scroll 0 0 #F11A57;
+    border: 1px solid #F11A57;
+    border-radius: 5px;
+    color: #FFFFFF;
+    font-weight: bold;
+    margin: 5px;
+    padding: 5px;
+}
+
+.aligneGauche
+{
+text-align:center;
+/*background-color:#BDBDBD;*/
+border-bottom:grey solid 1px;
+border-spacing : 0;
+border-collapse : collapse;
+}
+
+.aligneDroite
+{
+text-align:center;
+border-bottom:grey solid 1px;
+background-color:#b0dafb;
+border-spacing : 0;
+border-collapse : collapse;
+}
+
+#erreur_connexion {
+    background: none repeat scroll 0 0 #F11A57;
+    border: 1px solid #F11A57;
+    border-radius: 5px;
+    color: #FFFFFF;
+    margin: 20px 5px 5px;
+    padding: 5px;
+    text-align: left;
+	font: 13px "Lucida Sans Unicode",sans-serif,arial,times,veronica,serif;
+}
+#connexion {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #AAAAAA;
+    border-radius: 5px;
+    box-shadow: 8px 8px 12px #AAAAAA;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 1em;
+    margin: 90px auto;
+    padding: 5px;
+    text-align: center;
+    width: 380px;
+	font: 13px "Lucida Sans Unicode",sans-serif,arial,times,veronica,serif;
+}
+.inscription {
+    background: none repeat scroll 0 0 #FAFAFA;
+    border: 1px solid #DDDDDD;
+    font: 0.95em arial,sans-serif;
+    padding: 0.15em;
+    width: 269px;
+}
+
+.recherche {
+    background: none repeat scroll 0 0 #FAFAFA;
+    border: 1px solid #DDDDDD;
+    font: 0.95em arial,sans-serif;
+    padding: 0.15em;
+    width: 150px;
+}
+
+.inscri {
+	margin-bottom: 5px; 
+	display: inline-block;	
+}
+
+label {
+    float: left;
+    font-weight: bold;
+    margin-right: 5px;
+    text-align: right;
+    width: 175px;
+}
+.boutton {
+    background: none repeat scroll 0 0 #FAFAFA;
+    border: 1px solid #DDDDDD;
+    float: right;
+    font: bold 0.95em arial,sans-serif;
+    margin-right: 45px;
+    padding: 0.15em;
+    width: 90px;
+}
+
+.collec {
+    background: none repeat scroll 0 0 #FAFAFA;
+    border: 1px solid #DDDDDD;
+    font: bold 0.95em arial,sans-serif;
+    margin-right: 45px;
+    padding: 0.15em;
+}
+
+.succes {
+    color: #00CC00;
+    font-weight: bold;
+}
+
+.inscription {
+    background: none repeat scroll 0 0 #FAFAFA;
+    border: 1px solid #DDDDDD;
+    float: left;
+    font: 0.95em arial,sans-serif;
+    margin-bottom: 2px;
+    padding: 0.15em;
+    width: 415px;
+}
+
+.bout {
+    background: none repeat scroll 0 0 #FAFAFA;
+    border: 1px solid #DDDDDD;
+    font: 0.95em arial,sans-serif;
+    padding: 0.15em;
+    width: 100px;
+}
+
+.code {
+    background: none repeat scroll 0 0 #D6EFA1;
+    border: 1px solid #C1D779;
+    border-radius: 5px;
+    color: #4F7307;
+    margin: 5px 205px 5px 5px;
+    padding: 5px;
+}
+
+.align_b {
+    float: right;
+    margin-right: 70px;
+}
+
+#lol {
+    float: right;
+    margin-right: 9px;
+}
+
+.new {
+    background: url("../img/new.png") no-repeat scroll 477px 0 rgba(0, 0, 0, 0);
+    width: 525px;
+}
+
+.liste {
+    background: none repeat scroll 0 0 #FAFAFA;
+    border: 1px solid #DDDDDD;
+    font: 0.95em arial,sans-serif;
+    padding: 0.15em;
+    width: 135px;
+}
