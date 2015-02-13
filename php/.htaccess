@@ -1,0 +1,18 @@
+Options +FollowSymlinks
+Options -Indexes
+RewriteEngine On
+
+RewriteEngine on
+RewriteBase /
+ 
+#Rewrite des categories
+RewriteRule  ^categorie-([0-9]*)-(.*)\.php$  categorie.php?id=$1&categorie=$2 [L]
+ 
+#Rewrite des pages
+RewriteRule  ^(.*)-([0-9]*)\.php$  page.php?titre=$1&id=$2 [L]
+ 
+#On rewrite le flux rss
+RewriteRule ^rss\.xml$  rss.php [L]
+ 
+#On rewrite le plan sitemap xml
+RewriteRule ^sitemap\.xml$  sitemap.php [L]
